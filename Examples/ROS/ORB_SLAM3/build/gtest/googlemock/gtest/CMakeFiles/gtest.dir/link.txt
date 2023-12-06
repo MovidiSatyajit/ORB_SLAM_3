@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest.so -o /ORB_SLAM3/Examples/ROS/ORB_SLAM3/lib/libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/gtest/googlemock/gtest/src -Wl,-rpath,/ORB_SLAM3/Examples/ROS/ORB_SLAM3/build/gtest/googlemock/gtest/src -lpthread 
